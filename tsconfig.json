@@ -15,11 +15,11 @@
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
-    "rootDir": "src",
+    "rootDir": "./",
     "outDir": "out",
     "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "models", "index.ts", "utils.ts", "types.ts"]
 }
